@@ -1,4 +1,5 @@
 #include <iostream>
+#include <time.h>
 using namespace std;
 /*
  * Course: Chaffey College 2021-Fall CS2
@@ -17,5 +18,6 @@ using namespace std;
 int main()
 {
     cout << "Hello 10.03" << endl;
+
     return 0;
 }

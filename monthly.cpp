@@ -4,6 +4,11 @@
 
 #include "monthly.h"
 
+Monthly::Monthly(const int &time, const int &day, const int &month, const int &year, const std::string &description)
+        : Appointment(time, day, month, year, description + " (Monthly)") {}
+
 bool Monthly::occurs_on(const int &year, const int &month, const int &day) const {
-    return day == this->day_of_the_month;
+    return day == this->get_day_of_month();
 }
+
+
