@@ -18,6 +18,6 @@ using namespace std;
 int main()
 {
     cout << "Hello 10.03" << endl;
-
+    cout << "Not enough time for testing... " << endl;
     return 0;
 }
